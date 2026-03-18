@@ -45,3 +45,6 @@ class BloodCellClassifierV0(nn.Module):
 
   def forward(self,x):
     return self.classifier(self.conv_block_2(self.conv_block_1(x)))
+# create model instance
+model=BloodCellClassifierV0(3,10,len(label_classes))
+model.to(device)
