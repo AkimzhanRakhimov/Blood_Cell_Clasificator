@@ -30,7 +30,7 @@ The model (`BloodCellClassifierV0`) consists of:
 * Dropout (0.5) to reduce overfitting
 * Simple architecture for fast experimentation
 
-## 📂 Dataset
+## Dataset
 
 Dataset structure:
 
@@ -86,6 +86,7 @@ Each class contains RGB microscopy images.
 ### Additional analysis:
 
 * Random prediction visualization (correct/incorrect highlighted)
+![Demonstration](2026-03-18_13-31-28.png)
 * Confusion matrix (heatmap)
 
 ---
@@ -180,5 +181,3 @@ This is an educational project focused on understanding:
 * CNN fundamentals
 * Training dynamics
 * Evaluation techniques
-
----
