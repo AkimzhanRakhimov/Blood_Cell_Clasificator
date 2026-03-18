@@ -86,7 +86,9 @@ Each class contains RGB microscopy images.
 ### Additional analysis:
 
 * Random prediction visualization (correct/incorrect highlighted)
+
 ![Demonstration](2026-03-18_13-31-28.png)
+
 * Confusion matrix (heatmap)
 
 ---
@@ -97,6 +99,8 @@ The confusion matrix is computed manually and visualized using Seaborn:
 
 * Rows: True labels
 * Columns: Predicted labels
+
+![Demonstration](2026-03-18_13-32-03.png)
 
 This helps identify which classes are being confused by the model.
 
